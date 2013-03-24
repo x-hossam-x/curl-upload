@@ -13,7 +13,7 @@
  *  written permission from the original author(s).
  */
   $local_directory=dirname(__FILE__).'/local_files/';
-	// create a new curl resource
+    // create a new curl resource
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_VERBOSE, 0);
@@ -22,7 +22,7 @@
     curl_setopt($ch, CURLOPT_POST, true);
 	// set url and other appropriate options
 	curl_setopt($ch, CURLOPT_URL, 'http://localhost/curl_upload/uploader.php' );
-	//most importent curl assues @filed as file field
+    //most importent curl assues @filed as file field
     $post_array = array(
         "my_file"=>"@".$local_directory.'hossam.gif',
         "upload"=>"Upload"
