@@ -1,7 +1,7 @@
- # Copyright :
+ * Copyright :
  *  Copyright (C) 2012 - 2013 By Hossam Joseph.
  *
- # Description :
+ * Description :
  *  Upload Image File To Remote Server With PHP CURL.
  *
  * Licenses :
